@@ -77,13 +77,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.grid {
-  background-color: lightgrey;
-  outline: 2px solid blue; }
-  .grid .units {
-    width: 8.33333%;
-    float: left; }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -139,14 +132,13 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 .clearfix:before,
-.grid:before,
-.clearfix:after, .grid:after {
+.clearfix:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after, .grid:after {
+.clearfix:after {
   clear: both; }
 
 /* ==========================================================================

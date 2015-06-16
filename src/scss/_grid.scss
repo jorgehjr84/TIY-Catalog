@@ -1,0 +1,12 @@
+.grid {
+  $grid-width: 100%;
+  $unit-width: ($grid-width/12) * 1;
+  @extend .clearfix;
+  background-color: lightgrey;
+  outline: 2px solid blue;
+.units {
+  width: $unit-width;
+  float: left;
+}
+
+}
