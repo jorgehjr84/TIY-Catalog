@@ -78,14 +78,11 @@ textarea {
    Author's custom styles
    ========================================================================== */
 .grid {
-  margin: 0 auto;
-  max-width: 100%;
-  outline: 2px black solid;
-  background-color: lightgrey; }
-  .grid .unit {
+  background-color: lightgrey;
+  outline: 2px solid blue; }
+  .grid .units {
     width: 8.33333%;
-    float: left;
-    outline: 1px black solid; }
+    float: left; }
 
 /* ==========================================================================
    Helper classes

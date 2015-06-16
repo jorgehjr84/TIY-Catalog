@@ -1,13 +1,12 @@
 .grid {
-  $grid-width:100%;
-  margin: 0 auto;
+  $grid-width: 100%;
+  $unit-width: ($grid-width/12) * 1;
   @extend .clearfix;
-  max-width: $grid-width;
-  outline: 2px black solid;
   background-color: lightgrey;
-    .unit {
-      width: ($grid-width/12) * 1;
-      float: left;
-      outline: 1px black solid;
-  }
+  outline: 2px solid blue;
+.units {
+  width: $unit-width;
+  float: left;
+}
+
 }
