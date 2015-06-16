@@ -1,0 +1,13 @@
+#reference-grid {
+  $grid-width:100%;
+  margin: 0 auto;
+  @extend .clearfix;
+  max-width: $grid-width;
+  outline: 2px black solid;
+  background-color: lightgrey;
+    .unit {
+      width: ($grid-width/12) * 1;
+  float: left;
+
+  }
+}

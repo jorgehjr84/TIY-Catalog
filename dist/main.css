@@ -77,15 +77,6 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-#reference-grid {
-  margin: 0 auto;
-  max-width: 100%;
-  outline: 2px black solid;
-  background-color: lightgrey; }
-  #reference-grid .unit {
-    width: 8.33333%;
-    float: left; }
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -141,14 +132,13 @@ textarea {
  *    `:before` to contain the top-margins of child elements.
  */
 .clearfix:before,
-#reference-grid:before,
-.clearfix:after, #reference-grid:after {
+.clearfix:after {
   content: " ";
   /* 1 */
   display: table;
   /* 2 */ }
 
-.clearfix:after, #reference-grid:after {
+.clearfix:after {
   clear: both; }
 
 /* ==========================================================================
